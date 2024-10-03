@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: plum;
+  padding: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.header img {
+  width: 48px;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  background-color: indigo;
+  outline: none;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  gap: 12px;
+}
+.create img {
+  width: 20px;
+}
+
+.notes-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 18px;
+  width: 100%;
+  max-width: 540px;
+  border-radius: 20px;
+  background-color: indigo;
+}
+.input-box{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    min-height: 120px;
+    padding: 8px;
+    color: indigo;
+    border: none;
+    outline: none;
+}
+.input-box img{
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 28px;
+    cursor: pointer;
+}
+
